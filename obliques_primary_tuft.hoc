@@ -1,0 +1,20 @@
+// obliques_primary_tuft.hoc
+// This script assigns the oblique and primary SectionList.
+
+objref obliques, primary, tuft
+
+obliques = new SectionList()
+primary = new SectionList()
+tuft = new SectionList()
+
+for i=0,27 {
+  apic[i] primary.append()
+}
+
+for i=28,52 {
+  apic[i] tuft.append()
+}
+
+for i=53,128 {
+  apic[i] obliques.append()
+}
