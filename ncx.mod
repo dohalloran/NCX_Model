@@ -19,7 +19,7 @@ UNITS {
 }
 
 PARAMETER {
-	imax	= 4.4       (mA/cm2) : 3.2(ncx1)/1.9(ncx3)/1.2(ncx2)
+	imax	= 1.2       (mA/cm2) 
 	kna	=  87.5     (mM)
 	kca	=  1.38     (mM)
 	gamma	= .35		: voltage dependence factor
